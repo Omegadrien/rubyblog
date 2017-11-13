@@ -1,0 +1,16 @@
+<h2>
+  Title: <%= @article.title %>
+</h2>
+
+<p>
+  Content: <br>
+  <%= @article.text %>
+</p>
+
+<p>
+  Category: <br>
+  <%= Category.find(@article.category_id).name %>
+</p>
+
+<%# TODO: Add user comments %>
+<%# TODO: Add a form to enter comments %>

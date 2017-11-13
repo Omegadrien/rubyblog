@@ -7,8 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 #### Catgory table ####
-Category.create(name: 'Food')
-Category.create(name: 'Work')
-Category.create(name: 'Games')
-Category.create(name: 'Tavel')
-Category.create(name: 'miscellaneous')
+# Category.create(name: 'Food')
+# Category.create(name: 'Work')
+# Category.create(name: 'Games')
+# Category.create(name: 'Tavel')
+# Category.create(name: 'Miscellaneous')
