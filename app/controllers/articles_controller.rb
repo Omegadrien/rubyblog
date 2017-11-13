@@ -1,5 +1,9 @@
 class ArticlesController < ApplicationController
 
+  def index
+    @articles = Article.order("created_at DESC").limit(5).offset(0)
+  end
+
   def show
     @article = Article.find(params[:id])
   end
